@@ -17,7 +17,7 @@ use Utils;
 use User;
 use Channel;
 use strict;
-use UNIVERSAL qw(isa);
+use Scalar::Util 'reftype';
 
 use Tie::IRCUniqueHash;
 

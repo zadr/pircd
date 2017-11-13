@@ -19,7 +19,7 @@ use Utils;
 use Server;
 use Channel;
 
-use UNIVERSAL qw(isa);
+use Scalar::Util 'reftype';
 
 use Tie::IRCUniqueHash;
 

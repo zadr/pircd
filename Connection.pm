@@ -16,7 +16,7 @@ package Connection;
 use Utils;
 use Socket;
 use strict;
-use UNIVERSAL qw(isa);
+use Scalar::Util 'reftype';
 
 # Class constructor
 sub new {

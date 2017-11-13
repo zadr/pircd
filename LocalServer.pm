@@ -19,7 +19,7 @@ use Server;
 use strict;
 use Utils;
 use vars qw(@ISA $VERSION);
-use UNIVERSAL qw(isa);
+use Scalar::Util 'reftype';
 @ISA=qw{Server};
 
 use Tie::IRCUniqueHash;

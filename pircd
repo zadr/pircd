@@ -20,7 +20,7 @@ use IO::Socket;
 use IO::Select;
 use Fcntl;
 use Tie::RefHash;
-use UNIVERSAL qw(isa);
+use Scalar::Util 'reftype';
 
 # pircd-specific modules
 use Utils;
